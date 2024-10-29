@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mystery+Quest&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/fondodenta.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+
+header nav {
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #fff;
+    margin: 0 12;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hero {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 10%;
+    background-size: cover;
+}
+
+#hero h2 {
+    font-size: 60px;
+    color: #EEC8E0;
+    font-weight: 600;
+}
+
+#hero h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button{
+    background: #7E1168;
+    color: #F0F7EE;
+    padding: 14px 30px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#planes{
+    width: 100%;
+    background: url(../img/fondoservicios.png);
+    position: relative;
+    padding: 110px 0px;
+    text-align: center;
+    background-size: cover;
+}
+
+#planes h2{
+    color: #7E1168;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+#planes p {
+    color: #EEC8E0;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#planes .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#planes article{
+    margin: 20px 50px;
+    position: relative;
+}
+
+#planes article h3{
+    position: absolute;
+    top: 120px;
+    color: #ffffff;
+    width: 100%;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: #000;
+    text-transform: uppercase;
+}
+
+#planes img{
+    filter: grayscale(1);
+}
+
+#destinos {
+    width: 100%;
+    padding: 120px 50px;
+    background: #5f244a;
+    background-size: cover;
+    text-align: center;
+}
+
+#destinos h2 {
+    color: #F0F7EE;
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #7E1168;
+    margin-bottom: 50px;
+}
+
+#destinos .fila {
+    display: flex;
+    justify-content: center;
+}
+
+#destinos article {
+    margin: 30px 180px;
+}
+
+#destinos h3 {
+    color: #EEC8E0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 80px;
+}
+
+#contacto {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background-color: #EEC8E0;
+}
+
+#contacto h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 40px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto button {
+    background: #7E1168;
+    color: #F0F7EE;
+    font-size: 22px;
+    padding: 12px 100px;
+    border-radius: 6px;
+}
+
+#nosotros h2{
+    color: #7E1168;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#nosotros h3{
+    color: #EEC8E0;
+    font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#nosotros p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nosotros {
+    background: url(../img/benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg);
+}
+
+form button:hover{
+    transform: scale(.8);
+    transition-duration: 1s;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#planes img:hover{
+    filter:grayscale(0);
+    transition-duration: 0.5s;
+}
+
+#destinos img:hover{
+    transform: scale(.9);
+    transition-duration: 0.5s;
+}
